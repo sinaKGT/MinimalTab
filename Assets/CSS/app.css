@@ -73,6 +73,7 @@ button {
     border: none;
     bottom: 40px;
     left: 40px;
+    cursor: pointer;
 }
 
 @media (max-width: 800px)  {
