@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Courgette', cursive;
+}
+
+.dark-mode {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.parent {
+    /* height of the browser viewport */
+    min-height: 100vh;
+    /* When we have dynamic display we should use flex for small size and grid for big project */
+    display: flex;
+    /* flex direction say what is direction of parrent horizontal or vertical */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#clock {
+    /* order is a property of flex box for order of content show in the flexbox */
+    order: 1;
+    font-size: 5.5vw;
+}
+
+#date {
+    order: 2;
+    font-size: 1.7vw;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#quote {
+    order: 3;
+    font-size: 1.4vw;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 3%;
+    font-family: 'Lemonada', cursive;
+}
+
+span {
+    order: 4;
+    font-style: bold;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+button {
+    position: absolute;
+    width: 2.5vw;
+    height: 2.5vw;
+    border: none;
+    bottom: 2%;
+    left: 2%;
+}
