@@ -3,10 +3,10 @@ const currentTheme = localStorage.getItem("theme");
 
 if (currentTheme == "dark") {
     document.body.classList.add("dark-mode");
-    document.getElementById("darkModeBtn").style.background = "url(Assets/sun.gif) no-repeat center";
+    document.getElementById("darkModeBtn").style.background = "url(Assets/sun.svg) no-repeat center";
 }
 else{
-    document.getElementById("darkModeBtn").style.background = "url(Assets/moon.gif) no-repeat center";
+    document.getElementById("darkModeBtn").style.background = "url(Assets/moon.svg) no-repeat center";
 }
 
 // Define Listener for click on  dark mode btn
@@ -27,10 +27,10 @@ function changeIcon(){
     var btn = document.getElementsByName("darkModeBtn")
     var currentTheme = localStorage.getItem("theme");
     if (currentTheme == "dark"){
-        document.getElementById("darkModeBtn").style.background = "url(Assets/sun.gif) no-repeat center";
+        document.getElementById("darkModeBtn").style.background = "url(Assets/sun.svg) no-repeat center";
     }
     else{
-        document.getElementById("darkModeBtn").style.background = "url(Assets/moon.gif) no-repeat center";
+        document.getElementById("darkModeBtn").style.background = "url(Assets/moon.svg) no-repeat center";
     }
 }
 
@@ -205,7 +205,7 @@ class RandomQuote {
             "“First have a definite clear practical ideal; a goal an objective. Second have the necessary means to achieve your ends; wisdom money materials and methods. Third adjust all your means to that end.”<br><span>Aristotl</span>",
             "“If the wind will not serve take to the oars.”<br><span>Latin Prover</span>",
             "“You can’t fall if you don’t climb.  But there’s no joy in living your whole life on the ground.”<br><span>Unknow</span>",
-            "“We must believe that we are gifted for something and that this thing at whatever cost must be attained.”<br><span>Marie Curi</span>",
+            "“We must believe that we are svgted for something and that this thing at whatever cost must be attained.”<br><span>Marie Curi</span>",
             "“Too many of us are not living our dreams because we are living our fears.”<br><span>Les Brow</span>",
             "“Challenges are what make life interesting and overcoming them is what makes life meaningful.”<br><span>Joshua J. Marin</span>",
             "“If you want to lift yourself up lift up someone else.”<br><span>Booker T. Washingto</span>",
@@ -414,7 +414,7 @@ class RandomQuote {
             "“First have a definite clear practical ideal; a goal an objective. Second have the necessary means to achieve your ends; wisdom money materials and methods. Third adjust all your means to that end.”<br><span>Aristotl</span>",
             "“If the wind will not serve take to the oars.”<br><span>Latin Prover</span>",
             "“You can’t fall if you don’t climb.  But there’s no joy in living your whole life on the ground.”<br><span>Unknow</span>",
-            "“We must believe that we are gifted for something and that this thing at whatever cost must be attained.”<br><span>Marie Curi</span>",
+            "“We must believe that we are svgted for something and that this thing at whatever cost must be attained.”<br><span>Marie Curi</span>",
             "“Too many of us are not living our dreams because we are living our fears.”<br><span>Les Brow</span>",
             "“Challenges are what make life interesting and overcoming them is what makes life meaningful.”<br><span>Joshua J. Marin</span>",
             "“If you want to lift yourself up lift up someone else.”<br><span>Booker T. Washingto</span>",
