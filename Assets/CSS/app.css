@@ -89,5 +89,7 @@ button {
     button {
         width: 6vw;
         height: 6vw;
+        bottom: 3%;
+        left: 6%;
     }
   }
