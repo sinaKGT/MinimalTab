@@ -3,10 +3,17 @@ const currentTheme = localStorage.getItem("theme");
 
 if (currentTheme == "dark") {
     document.body.classList.add("dark-mode");
+<<<<<<< HEAD
     document.getElementById("darkModeBtn").style.background = "url(Assets/sun.svg) no-repeat center";
 }
 else{
     document.getElementById("darkModeBtn").style.background = "url(Assets/moon.svg) no-repeat center";
+=======
+    document.getElementById("darkModeBtn").style.background = "url(./Assets/icon/sun.svg) no-repeat center";
+}
+else{
+    document.getElementById("darkModeBtn").style.background = "url(./Assets/icon/moon.svg) no-repeat center";
+>>>>>>> feb8bf759d2cf31fcd47c13b387179b626848c50
 }
 
 // Define Listener for click on  dark mode btn
@@ -26,10 +33,17 @@ function changeIcon(){
     var btn = document.getElementsByName("darkModeBtn")
     var currentTheme = localStorage.getItem("theme");
     if (currentTheme == "dark"){
+<<<<<<< HEAD
         document.getElementById("darkModeBtn").style.background = "url(Assets/sun.svg) no-repeat center";
     }
     else{
         document.getElementById("darkModeBtn").style.background = "url(Assets/moon.svg) no-repeat center";
+=======
+        document.getElementById("darkModeBtn").style.background = "url(./Assets/icon/sun.svg) no-repeat center";
+    }
+    else{
+        document.getElementById("darkModeBtn").style.background = "url(./Assets/icon/moon.svg) no-repeat center";
+>>>>>>> feb8bf759d2cf31fcd47c13b387179b626848c50
     }
 }
 
