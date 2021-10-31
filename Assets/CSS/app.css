@@ -71,8 +71,8 @@ button {
     width: 2.5vw;
     height: 2.5vw;
     border: none;
-    bottom: 2%;
-    left: 2%;
+    bottom: 40px;
+    left: 40px;
 }
 
 @media (max-width: 800px)  {
