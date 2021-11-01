@@ -1,0 +1,12 @@
+{
+    "name": "Minimal Tab",
+    "version": "0.5",
+    "manifest_version": 2,
+    "description": "Minimal new tab with clock and motivation qoute",
+    "offline_enabled": true,
+    "chrome_url_overrides": {
+        "newtab": "app.html"
+    }
+
+
+}
